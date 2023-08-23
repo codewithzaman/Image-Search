@@ -16,3 +16,9 @@ h1 {
  margin: 40px 0 60px 0;
 
 }
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
