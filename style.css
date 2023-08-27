@@ -45,7 +45,6 @@ form{
 }
 .search-results{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     justify-content: center;
     flex-wrap: wrap;
@@ -54,7 +53,7 @@ form{
 }
 .search-result{
     margin-bottom: 60px;
-    width:30%;
+    width:10%;
     height: 100%;
     border-radius: 5px;
     box-shadow:0 0 6px rgba(0, 0, 0, 0.2);
@@ -68,3 +67,11 @@ form{
 .search-result:hover img {
     opacity: 0.8;
 }
+.search-result a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 10px;
+    text-transform: capitalize;
+    }
